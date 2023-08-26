@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4436355032220632419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2645965360161182634}
+  - component: {fileID: 8204489228112808897}
+  - component: {fileID: -628569182816152585}
+  m_Layer: 0
+  m_Name: Map2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2645965360161182634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4436355032220632419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.316004, y: -0.45089278, z: 4.42366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8204489228112808897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4436355032220632419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc3f4907a98d9f499c4a9d46b006965, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 0}
+  PlayerRepresentation: {fileID: 8556713379127750146, guid: 781e3466a80fba34a8f7680273a55bc9, type: 3}
+  Tile: {fileID: 8867240436640077191, guid: 60ea46d8784ad374d80870514ddfacd9, type: 3}
+  tileTextured: {fileID: 0}
+  teleporter: {fileID: 0}
+  empty: {fileID: 0}
+  tileTexturedTop: {fileID: 0}
+  teleporterTop: {fileID: 0}
+  emptyTop: {fileID: 0}
+--- !u!114 &-628569182816152585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4436355032220632419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42e2d35a8238c40458c916819ac8eab8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size: 0
+  map3D: {fileID: 0}
+  plane: 0
+  player: {fileID: 0}
+  world: {fileID: 0}
